@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.navbar{
+    background-color:beige;
+}
+.logo{
+    float: left;
+    margin-top: 5px;
+}
+.logo img{
+    width:50%;
+}
+.navbar .list{
+    float: right;
+    margin-top: 5px;
+
+}
+.clear{
+    clear:both;
+}
+.list ul{
+    list-style-type:none;
+}
+.list ul a{
+    text-decoration-line: none;
+}
+.list ul li{
+    float: left;
+}
+.list a{
+    color: black;
+    margin-right: 16px;
+    text-transform: uppercase;
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+.portfolio{
+background-color:bisque;
+text-align: center;
+}
+.portfolio-item{
+  float:left; 
+  width: 33.33%;
+}
+.portfolio img{
+    display:block;
+   width:90%;
+}
+
